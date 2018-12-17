@@ -1,0 +1,38 @@
+body {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji","Microsoft JhengHei";
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.25)!important;
+}
+.shadow {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.25)!important;
+}
+#jb1{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/Geography_03.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bg-coco {
+	background-color:#805C3B
+}
+
+.bg-khaki {
+	background-color:#FFE8C4
+}
+.bg-lightgreen {
+	background-color:#5BC534
+}
+.bg-gray {
+	background-color:#7B7D73
+}
+
+@media (max-width:992px) {
+	.pictext {
+		order:2;
+	}
+	.picimg {
+		order:1;
+	}
+}
