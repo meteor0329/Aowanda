@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html lang="zh-tw">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalabe=0" />
+	<meta name="author" content="網頁作者">
+	<meta name="keywords" content="咖啡,網頁,賣咖啡,買咖啡,東山,台南,台南市">
+	<meta name="description" content="東山咖啡銷售網站">
+	<title>奧萬大國家森林遊樂區</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/aowanda .css">
+	<link rel="stylesheet" href="css/fontawesome-all.min.css">
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="bookmark" href="/favicon.ico" />
+	<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+	<!-- 導覽列 -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-lightgreen fixed-top">
+		<!-- shadow shadow-lg shadow-sm-->
+		<div class="container">
+			<!-- 讓畫面居中 -->
+			<a class="navbar-brand" href="index.html">
+				<img src="images/Aowanda logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
+				奧萬大國家森林遊樂區</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<!-- 只能有一個 -->
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="news.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+						 aria-haspopup="true" aria-expanded="false"><i class="fas fa-bullhorn"></i>
+							焦點訊息
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="news.html">最新消息</a>
+							<a class="dropdown-item" href="#">宣導公告</a>
+							<a class="dropdown-item" href="#">活動花絮</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="ticket.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+						 aria-haspopup="true" aria-expanded="false">
+							入園資訊
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="ticket.html">票價訊息</a>
+							<a class="dropdown-item" href="#">策略聯盟</a>
+							<a class="dropdown-item" href="#">交通指南</a>
+							<a class="dropdown-item" href="#">遊客須知</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="about.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+						 aria-haspopup="true" aria-expanded="false">
+							園區介紹
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="about.html">關於奧萬大</a>
+							<a class="dropdown-item" href="#">園區地圖</a>
+							<a class="dropdown-item" href="#">特色景點</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="room.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+						 aria-haspopup="true" aria-expanded="false">
+							客房住宿
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="room.html">訂房須知</a>
+							<a class="dropdown-item" href="#">房型介紹</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+						 aria-expanded="false">
+							服務項目
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">遊客服務中心服務項目</a>
+							<a class="dropdown-item" href="#">餐飲服務</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="accessible.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+						 aria-haspopup="true" aria-expanded="false">
+							便民服務
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="accessible.html">常見問答</a>
+							<a class="dropdown-item" href="#">聯絡我們</a>
+							<a class="dropdown-item" href="#">下載專區</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- 側邊選單  -->
+	<div class="container" style="padding:100px 0 20px 0">
+		<div class="container">
+			<div class="row">
+				<div class="col-2" style="padding:15px 30px 0 0">
+					<ul style="list-style-type: none">
+						<li id="btn" class="rounded"><a href="news.html" style="text-decoration:none;color: #25992D">最新消息</a></li>
+						<li id="btn" class="rounded"><a href="#" style="text-decoration:none;color: #25992D">宣導公告</a></li>
+						<li id="btn" class="rounded"><a href="#" style="text-decoration:none;color: #25992D">活動花絮</a></li>
+					</ul>
+					<!-- <button type="button" class="btn btn-outline-success" style="margin-bottom:8px">最新消息</button>
+                    <button type="button" class="btn btn-outline-success" style="margin-bottom:8px">宣導公告</button>
+                    <button type="button" class="btn btn-outline-success">活動花絮</button> -->
+				</div>
+				<!-- 訊息區  -->
+				<div class="col-10">
+					<h3 class="text-left text-success"><i class="fas fa-crow"></i>&nbsp;最新消息</h3>
+					<hr>
+					<h5 class="text-success">2018-12-10<br>奧萬大於小年夜（2月3日）正常開園但不提供住宿服務，除夕（2月4日）休園一天</h5>
+					<p class="text-secondary">奧萬大國家森林遊樂區為除舊佈新，擴大進行園區清潔維護工作，於小年夜（2月3日）正常開園<br>但不提供住宿服務，除夕（2月4日）休園一天，不便之處敬請見諒。</p>
+					<p class="text-secondary">南投林區管理處 敬啟</p>
+					<hr>
+					<h5 class="text-success">2017-10-19<br>奧萬大旅遊、賞楓好便利-南投客運增加DRTS需求反應式公共運輸服務</h5>
+					<p class="text-secondary">南投客運為疏運南投縣仁愛鄉在地交通，除原有的「奧萬大旅遊專車」外，今(106)年10月起增加<br>「DRTS需求反應式公共運輸服務」，不分平假日往返於埔里與仁愛鄉採預約制，巡迴範圍埔里-<br>霧社-廬山-清境農場-松崗-奧萬大。讓想到奧萬大的遊客多了一項新選擇，搭乘遊客比照大眾運輸<br>條件給予優惠票價，即假日原購買全票(200元)之遊客可購買一般優惠票(150元)，平日原購買一般<br>優惠票(150元)，可購買半票(100元)。歡迎遊客多加利用省錢又環保喔
+						!<br>乘車資訊請詳南投客運網站<a href="">(請點選)</a>
+
+						南投客運「奧萬大旅遊專車」<a href="">(請點選)</a><br>
+						於賞楓旺季期間(10月至隔年3月底)之星期六、日發車，因座位有限故採「預約訂位」<br>
+						<p class="text-success" style="font-size:18px;font-weight: bold">訂位專線 &nbsp; &nbsp;049-2984031 &nbsp; &nbsp;分機29
+							林小姐。</p>
+						<p class="text-secondary">於台中干城站出發7:50、高鐵台中站8:15、埔里轉運站9:15、抵奧萬大時間約10:55，回程時間為<br>下午3:30於奧萬大服務中心旁停車場發車。</p>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 頁尾版權 -->
+	<div class="container-fluid bg-gray" style="padding:20px 0 20px 0">
+		<div class="container text-white">
+
+			地址：546 南投縣仁愛鄉親愛村大安路153號<br>
+			諮詢專線：049-2974511 FAX:049-2974513 (上班時間 08:00~17:00)<br>
+			訂餐專線：049-2974988 FAX: 049-2974357<br>
+			&copy;
+			<script>
+				document.write(new Date().getFullYear())
+			</script>
+			奧萬大國家森林遊樂區 ALL RIGHTS RESERVED.
+			<ul class="nav justify-content-center">
+				<li class="nav-item">
+					<a class="nav-link text-white" href="https://zh-tw.facebook.com/" target="_blank">
+						<i class="fab fa-facebook-square"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="https://twitter.com/?lang=zh-tw" target="_blank">
+						<i class="fab fa-twitter-square"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="https://www.youtube.com/?gl=TW&hl=zh-TW" target="_blank">
+						<i class="fab fa-youtube"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="#" target="_blank">
+						<i class="fab fa-line"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
