@@ -5,8 +5,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalabe=0" />
 	<meta name="author" content="網頁作者">
-	<meta name="keywords" content="咖啡,網頁,賣咖啡,買咖啡,東山,台南,台南市">
-	<meta name="description" content="東山咖啡銷售網站">
+	<meta name="keywords" content="楓葉,櫻花,落羽松,賞螢火蟲,仁愛鄉,南投,奧萬大">
+	<meta name="description" content="奧萬大國家森林遊樂區">
 	<title>奧萬大國家森林遊樂區</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/aowanda .css">
@@ -21,7 +21,7 @@
 	<nav class="navbar navbar-expand-lg navbar-dark bg-lightgreen fixed-top">
 		<!-- shadow shadow-lg shadow-sm-->
 		<div class="container">
-			<!-- 讓畫面居中 -->
+			<!-- 讓畫面居中 -->	
 			<a class="navbar-brand" href="index.html">
 				<img src="images/Aowanda logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
 				奧萬大國家森林遊樂區</a>
@@ -52,7 +52,7 @@
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 							<a class="dropdown-item" href="ticket.html">票價訊息</a>
-							<a class="dropdown-item" href="#">策略聯盟</a>
+							<a class="dropdown-item" href="partner.html">策略聯盟</a>
 							<a class="dropdown-item" href="#">交通指南</a>
 							<a class="dropdown-item" href="#">遊客須知</a>
 						</div>
@@ -104,6 +104,44 @@
 		</div>
 	</nav>
 
+	<!-- 載入畫面 -->
+	<div id="loading" class="bg-white" style="width:100vw; height:100vh; position:fixed; z-index:1029; display: table">
+			<div class="d-table-cell align-middle text-center">
+				<svg class="lds-default" width="120px" height="120px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"><circle cx="70" cy="50" fill="undefined" r="5.31821">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-1.17s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-1.17s"></animate>
+				</circle><circle cx="66.18" cy="61.756" fill="undefined" r="5.72179">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-1.04s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-1.04s"></animate>
+				</circle><circle cx="56.18" cy="69.021" fill="undefined" r="4.76179">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.91s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-0.91s"></animate>
+				</circle><circle cx="43.82" cy="69.021" fill="undefined" r="3.80179">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.78s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-0.78s"></animate>
+				</circle><circle cx="33.82" cy="61.756" fill="undefined" r="3.6">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.65s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-0.65s"></animate>
+				</circle><circle cx="30" cy="50" fill="undefined" r="3.6">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.52s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-0.52s"></animate>
+				</circle><circle cx="33.82" cy="38.244" fill="undefined" r="3.6">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.39s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-0.39s"></animate>
+				</circle><circle cx="43.82" cy="30.979" fill="undefined" r="3.6">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.26s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-0.26s"></animate>
+				</circle><circle cx="56.18" cy="30.979" fill="undefined" r="3.6">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.13s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-0.13s"></animate>
+				</circle><circle cx="66.18" cy="38.244" fill="undefined" r="4.35821">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="0s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="0s"></animate>
+				</circle></svg><br>
+				<h5>載入中...</h5>
+			</div>
+	</div>
+	
 	<!-- 輪播 -->
 	<div class="container" style="padding:66px 0 20px 0">
 		<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
@@ -136,7 +174,8 @@
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="images/winter.jpg" alt="Third slide">
+					<img class="d-block w-100" src="images/winter.jpg" alt="
+					fourth slide">
 					<div class="carousel-caption d-none d-md-block">
 						<h3>冬臨凋零</h3>
 						<p>落羽松</p>
@@ -160,10 +199,10 @@
 			<h3 class="text-center text-success"><i class="fas fa-crow"></i> &nbsp;最新消息</h3>
 			<hr>
 			<h5 class="text-success">2018-12-10</h5>
-			<a class="text-secondary" href="">奧萬大於小年夜（2月3日）正常開園但不提供住宿服務，除夕（2月4日）休園一天</a>
+			<a class="text-secondary" href="news.html">奧萬大於小年夜（2月3日）正常開園但不提供住宿服務，除夕（2月4日）休園一天</a>
 			<hr>
 			<h5 class="text-success">2017-10-19</h5>
-			<a class="text-secondary" href="">奧萬大旅遊、賞楓好便利-南投客運增加DRTS需求反應式公共運輸服務</a>
+			<a class="text-secondary" href="news.html">奧萬大旅遊、賞楓好便利-南投客運增加DRTS需求反應式公共運輸服務</a>
 		</div>
 	</div>
 
@@ -206,6 +245,12 @@
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script>
+		// 當網頁讀取完畢時(連圖片也載入時)
+		$(window).on("load",function() {
+			setTimeout('$("#loading").fadeOut()',1500);
+		})
+	</script>	
 </body>
 
 </html>
