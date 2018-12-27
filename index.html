@@ -21,11 +21,12 @@
 	<nav class="navbar navbar-expand-lg navbar-dark bg-lightgreen fixed-top">
 		<!-- shadow shadow-lg shadow-sm-->
 		<div class="container">
-			<!-- 讓畫面居中 -->	
+			<!-- 讓畫面居中 -->
 			<a class="navbar-brand" href="index.html">
 				<img src="images/Aowanda logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
 				奧萬大國家森林遊樂區</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -41,7 +42,7 @@
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 							<a class="dropdown-item" href="news.html">最新消息</a>
 							<a class="dropdown-item" href="propagate.html">宣導公告</a>
-							<a class="dropdown-item" href="#">活動花絮</a>
+							<a class="dropdown-item" href="event.html">活動花絮</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
@@ -52,8 +53,8 @@
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 							<a class="dropdown-item" href="ticket.html">票價訊息</a>
 							<a class="dropdown-item" href="partner.html">策略聯盟</a>
-							<a class="dropdown-item" href="#">交通指南</a>
-							<a class="dropdown-item" href="#">遊客須知</a>
+							<a class="dropdown-item" href="traffic.html">交通指南</a>
+							<a class="dropdown-item" href="notice.html">遊客須知</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
@@ -63,8 +64,8 @@
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 							<a class="dropdown-item" href="about.html">關於奧萬大</a>
-							<a class="dropdown-item" href="#">園區地圖</a>
-							<a class="dropdown-item" href="#">特色景點</a>
+							<a class="dropdown-item" href="map.html">園區地圖</a>
+							<a class="dropdown-item" href="spot.html">特色景點</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
@@ -73,8 +74,8 @@
 							客房住宿
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="room.html">訂房須知</a>
-							<a class="dropdown-item" href="#">房型介紹</a>
+							<a class="dropdown-item" href="roomnotice.html">訂房須知</a>
+							<a class="dropdown-item" href="roomitem.html">房型介紹</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
@@ -84,7 +85,8 @@
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 							<a class="dropdown-item" href="center.html">遊客中心</a>
-							<a class="dropdown-item" href="#">餐飲服務</a>
+							<a class="dropdown-item" href="
+							restaurant.html">餐飲服務</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
@@ -94,8 +96,8 @@
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 							<a class="dropdown-item" href="accessible.html">常見問答</a>
-							<a class="dropdown-item" href="#">聯絡我們</a>
-							<a class="dropdown-item" href="#">下載專區</a>
+							<a class="dropdown-item" href="contact.html">聯絡我們</a>
+							<a class="dropdown-item" href="download.html">下載專區</a>
 						</div>
 					</li>
 				</ul>
@@ -105,42 +107,74 @@
 
 	<!-- 載入畫面 -->
 	<div id="loading" class="bg-white" style="width:100vw; height:100vh; position:fixed; z-index:1029; display: table">
-			<div class="d-table-cell align-middle text-center">
-				<svg class="lds-default" width="120px" height="120px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"><circle cx="70" cy="50" fill="undefined" r="5.31821">
-					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-1.17s"></animate>
-					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-1.17s"></animate>
-				</circle><circle cx="66.18" cy="61.756" fill="undefined" r="5.72179">
-					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-1.04s"></animate>
-					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-1.04s"></animate>
-				</circle><circle cx="56.18" cy="69.021" fill="undefined" r="4.76179">
-					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.91s"></animate>
-					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-0.91s"></animate>
-				</circle><circle cx="43.82" cy="69.021" fill="undefined" r="3.80179">
-					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.78s"></animate>
-					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-0.78s"></animate>
-				</circle><circle cx="33.82" cy="61.756" fill="undefined" r="3.6">
-					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.65s"></animate>
-					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-0.65s"></animate>
-				</circle><circle cx="30" cy="50" fill="undefined" r="3.6">
-					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.52s"></animate>
-					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-0.52s"></animate>
-				</circle><circle cx="33.82" cy="38.244" fill="undefined" r="3.6">
-					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.39s"></animate>
-					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-0.39s"></animate>
-				</circle><circle cx="43.82" cy="30.979" fill="undefined" r="3.6">
-					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.26s"></animate>
-					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-0.26s"></animate>
-				</circle><circle cx="56.18" cy="30.979" fill="undefined" r="3.6">
-					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.13s"></animate>
-					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="-0.13s"></animate>
-				</circle><circle cx="66.18" cy="38.244" fill="undefined" r="4.35821">
-					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996" times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="0s"></animate>
-					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1" dur="1.3s" begin="0s"></animate>
-				</circle></svg><br>
-				<h5>載入中...</h5>
-			</div>
+		<div class="d-table-cell align-middle text-center">
+			<svg class="lds-default" width="120px" height="120px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+			 viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+				<circle cx="70" cy="50" fill="undefined" r="5.31821">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996"
+					 times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-1.17s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1"
+					 dur="1.3s" begin="-1.17s"></animate>
+				</circle>
+				<circle cx="66.18" cy="61.756" fill="undefined" r="5.72179">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996"
+					 times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-1.04s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1"
+					 dur="1.3s" begin="-1.04s"></animate>
+				</circle>
+				<circle cx="56.18" cy="69.021" fill="undefined" r="4.76179">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996"
+					 times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.91s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1"
+					 dur="1.3s" begin="-0.91s"></animate>
+				</circle>
+				<circle cx="43.82" cy="69.021" fill="undefined" r="3.80179">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996"
+					 times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.78s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1"
+					 dur="1.3s" begin="-0.78s"></animate>
+				</circle>
+				<circle cx="33.82" cy="61.756" fill="undefined" r="3.6">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996"
+					 times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.65s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1"
+					 dur="1.3s" begin="-0.65s"></animate>
+				</circle>
+				<circle cx="30" cy="50" fill="undefined" r="3.6">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996"
+					 times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.52s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1"
+					 dur="1.3s" begin="-0.52s"></animate>
+				</circle>
+				<circle cx="33.82" cy="38.244" fill="undefined" r="3.6">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996"
+					 times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.39s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1"
+					 dur="1.3s" begin="-0.39s"></animate>
+				</circle>
+				<circle cx="43.82" cy="30.979" fill="undefined" r="3.6">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996"
+					 times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.26s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1"
+					 dur="1.3s" begin="-0.26s"></animate>
+				</circle>
+				<circle cx="56.18" cy="30.979" fill="undefined" r="3.6">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996"
+					 times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="-0.13s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1"
+					 dur="1.3s" begin="-0.13s"></animate>
+				</circle>
+				<circle cx="66.18" cy="38.244" fill="undefined" r="4.35821">
+					<animate attributeName="r" values="3.5999999999999996;3.5999999999999996;6;3.5999999999999996;3.5999999999999996"
+					 times="0;0.1;0.2;0.3;1" dur="1.3s" repeatCount="indefinite" begin="0s"></animate>
+					<animate attributeName="fill" values="#7d8f2c;#7d8f2c;#e5ee2f;#7d8f2c;#7d8f2c" repeatCount="indefinite" times="0;0.1;0.2;0.3;1"
+					 dur="1.3s" begin="0s"></animate>
+				</circle>
+			</svg><br>
+			<h5>載入中...</h5>
+		</div>
 	</div>
-	
+
 	<!-- 輪播 -->
 	<div class="container" style="padding:66px 0 20px 0">
 		<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
@@ -246,10 +280,10 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script>
 		// 當網頁讀取完畢時(連圖片也載入時)
-		$(window).on("load",function() {
-			setTimeout('$("#loading").fadeOut()',1500);
+		$(window).on("load", function () {
+			setTimeout('$("#loading").fadeOut()', 1500);
 		})
-	</script>	
+	</script>
 </body>
 
 </html>
