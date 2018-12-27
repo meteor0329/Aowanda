@@ -1,0 +1,35 @@
+body {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji","Microsoft JhengHei";
+}
+
+.bg-lightgreen {
+	background-color:#5BC534
+}
+.bg-gray {
+	background-color:#7B7D73
+}
+
+.thead-lightyellow{
+	background-color:#FFFF9A
+}
+
+#btn{
+	font-size: 18px;
+	color: #25992D;
+	text-align: center;
+	border: 1px solid #25992D;
+	margin-bottom:8px;
+}
+
+.table tr th:nth-child(3) {
+	width:calc(100% - 400px);
+}
+
+@media (max-width:992px) {
+	.pictext {
+		order:2;
+	}
+	.picimg {
+		order:1;
+	}
+}
